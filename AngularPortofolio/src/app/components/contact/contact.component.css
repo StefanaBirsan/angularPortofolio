@@ -1,0 +1,45 @@
+* {
+  font-family: "Fjalla One", sans-serif;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.socials i {
+  margin: 0rem 0.2rem;
+}
+.socials h5 {
+  margin: 0rem 1rem;
+}
+.contact {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+}
+a:hover {
+  color: olive;
+}
+@media screen and (max-width: 450px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,13 @@
+<div class="projects" *ngFor="let project of projects">
+  <div class="project">
+    <div class="projectInfo">
+      <h3 id="title">{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+    </div>
+    <!-- <div class="projectImg"></div> -->
+    <div class="usedTech">{{ project.tech }}</div>
+    <h5>{{ project.abilities }}</h5>
+
+    <a [href]="[project.link]">See more </a>
+  </div>
+</div>
